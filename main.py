@@ -12,7 +12,7 @@ def index():
    return render_template('login.html')
 
 
-@app.route('/FlaskTutorial',  methods=['POST'])
+@app.route('/FlaskApp',  methods=['POST'])
 def success():
    if request.method == 'POST':
        email = request.form['email']
